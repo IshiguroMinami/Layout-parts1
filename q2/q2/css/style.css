@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* 回答はここから */
+.brown_cardlist {
+  display: flex;
+  justify-content: center;
+}
+
+.cardlist {
+  width: 200px;
+  background-color: #d2b48c;
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  border-radius: 13px;
+  padding: 10px;
+  margin: 30px;
+  list-style: none;
+}

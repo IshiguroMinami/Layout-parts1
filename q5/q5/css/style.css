@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+.item-box {
+  width: 65px;
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  background: #00bbdd;
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-column-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column-bottom {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/*Q5-1回答はここまで*/
+
+.first-nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.center-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bottom-wrap-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+/*Q5-2回答はここまで*/
+
+.flex-1st {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-2nd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-3rd {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-4th {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Q5-3回答はここまで*/
+
+.grid-top {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.grid-center {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20px;
+}
+
+.grid-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-rows: 200px 200px;
+  margin-top: 20px;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.grid-box {
+  padding: 10px;
+  color: #fff;
+  background: #00bbdd;
+}
+
+.red-box {
+  background: #dd0700;
+  grid-column: 1 / 3;
+}
+
+.green-box {
+  background: #0bdd00;
+  grid-row: 2 / 4;
+}
+
+.yellow-box {
+  background: #d9dd00;
+  grid-column: 2 / 4;
+}
